@@ -1,0 +1,1 @@
+# nuxt-and-django-restframework
