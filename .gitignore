@@ -6,9 +6,8 @@ env.ini
 media/
 .media
 media
+node_modules
 
-docker-compose.yml
-Dockerfile
 
 # Distribution / packaging
 .Python
@@ -27,7 +26,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-*.sh
 
 # Django stuff:
 *.log
