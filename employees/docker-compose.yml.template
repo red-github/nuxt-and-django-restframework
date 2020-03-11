@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: ob-irs_web:latest
+    build: .
+    volumes:
+      - .:/irs_web
+    ports:
+      - "2015:3000"
+    container_name: irs_web
+    restart: always
